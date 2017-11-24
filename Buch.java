@@ -32,11 +32,60 @@ public class Buch
     }
     
     public Buch(String titel, Seite seite0, Seite seite1, Seite seite2, Seite seite3){
-        this.titel = "-kein Titel-";
+        this.titel = titel;
         
-        this.seite0 = new Seite(text);
-        this.seite1 = new Seite(String);
-        this.seite2 = new Seite(String);
-        this.seite3 = new Seite(String);
+        this.seite0 = seite0;
+        this.seite1 = seite1;
+        this.seite2 = seite2;
+        this.seite3 = seite3;
     }
+    
+    public void setTitel(String titel){
+        this.titel = titel;
+    }
+    
+    public void setSeite0(Seite seite0){
+        this.seite0 = seite0;
+    }
+    
+    public void setSeite1(Seite seite1){
+        this.seite1 = seite1;
+    }
+    
+    public void setSeite2(Seite seite2){
+        this.seite2 = seite2;
+    }
+    
+    public void setSeite3(Seite seite3){
+        this.seite3 = seite3;
+    }
+    
+    public String getTitel(){
+        return titel;
+    }
+    
+    public Seite getSeite0(){
+        return seite0;
+    }
+    
+    public Seite getSeite1(){
+        return seite1;
+    }
+    
+    public Seite getSeite2(){
+        return seite2;
+    }
+    
+    public Seite getSeite3(){
+        return seite3;
+    }
+    
+    public void druckeBuch(){
+        System.out.println(titel);
+        seite0.druckeText();
+        seite1.druckeText();
+        seite2.druckeText();
+        seite3.druckeText();
+    }
+        
 }
