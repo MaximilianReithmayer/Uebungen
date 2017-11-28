@@ -2,8 +2,8 @@
 /**
  * Beschreiben Sie hier die Klasse Seite.
  * 
- * @author (Ihr Name) 
- * @version (eine Versionsnummer oder ein Datum)
+ * @author Maximilian Reithmayer
+ * @version 28.11.2017
  */
 public class Seite
 {
@@ -18,7 +18,9 @@ public class Seite
     }
     
     public void setText(String text){
-        this.text = text;
+        if (text != null){
+            this.text = text;
+        }
     }
     
     public String getText(){
