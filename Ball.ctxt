@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=maxFuellmenge
+comment0.target=Ball(double)
+comment1.params=
+comment1.target=double\ getMaxFuellmenge()
+comment2.params=
+comment2.target=double\ getAktFuellmenge()
+comment3.params=fuellmenge
+comment3.target=void\ aufpumpen(double)
+comment4.params=menge
+comment4.target=void\ luftRausLassen(double)
+numComments=5
