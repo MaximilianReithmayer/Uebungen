@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Schulklasse()
+comment1.params=bezeichnung
+comment1.target=Schulklasse(java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ getBezeichnung()
+comment3.params=index
+comment3.target=boolean\ checkIndex(int)
+comment4.params=schueler
+comment4.target=boolean\ hinzufuegen(Schueler)
+comment5.params=index
+comment5.target=void\ zeigeSchueler(int)
+comment6.params=index
+comment6.target=void\ loescheSchueler(int)
+comment7.params=
+comment7.target=void\ alleNamenAusgeben()
+numComments=8

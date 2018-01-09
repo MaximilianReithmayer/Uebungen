@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Schueler()
+comment1.params=name\ alter
+comment1.target=Schueler(java.lang.String,\ int)
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment3.params=
+comment3.target=int\ getAlter()
+comment4.params=
+comment4.target=Schueler\ getMitSchueler()
+comment5.params=name
+comment5.target=void\ setName(java.lang.String)
+comment6.params=alter
+comment6.target=void\ setAlter(int)
+comment7.params=verweisSchueler
+comment7.target=void\ setMitSchueler(Schueler)
+comment8.params=
+comment8.target=void\ druckeInfo()
+numComments=9

@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Notizbuch()
+comment1.params=index
+comment1.target=boolean\ checkIndex(int)
+comment2.params=notiz
+comment2.target=void\ hinzuf\u00FCgen(java.lang.String)
+comment3.params=
+comment3.target=int\ anzahlNotizen()
+comment4.params=index
+comment4.target=void\ zeigeNotiz(int)
+comment5.params=index
+comment5.target=java.lang.String\ loescheNotiz(int)
+comment6.params=
+comment6.target=void\ alleNotizenAusgeben()
+numComments=7
